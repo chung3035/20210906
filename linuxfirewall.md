@@ -23,12 +23,24 @@ Steve Suehring 王文燁
 
 博碩文化  2019-09-12
 
+Part I 封包過濾(packet filter Firewall)以及基本安全措施
+Chapter 1 封包過濾防火牆的預備知識
+Chapter 2 封包過濾防火牆概念
+
 Chapter 3 iptables：傳統的 Linux 防火牆管理程式
 Chapter 4 nftables:（新）Linux 防火牆管理程式
 
+Part II 進階議題、多個防火牆和邊界網路
 Chapter 7 封包轉發
 Chapter 8 網路位址轉換NAT(Network address translation) https://en.wikipedia.org/wiki/Network_address_translation
 Chapter 10 虛擬專用網路
+
+Part III iptables 和nftables 之外的事
+Chapter 11 入侵檢測和響應
+Chapter 12 入侵檢測工具
+Chapter 13 網路監控TCPDump 和攻擊檢測 Snort 
+Chapter 14 檔案系統完整性 AIDE == Advanced Intrusion Detection Environment :file and directory integrity checker.
+           https://aide.github.io/
 ```
 ## [iptables command in Linux with Examples](https://www.geeksforgeeks.org/iptables-command-in-linux-with-examples/)
 ```
@@ -75,3 +87,4 @@ FORWARD – for packets routed through the box
 4. Unblock IP Address in IPtables Firewall
 
 ```
+## [UNIX\Linux 網絡日誌分析與流量監控 UNIX/Linux网络日志分析与流量监控 李晨光 機械工業 2015](https://www.tenlong.com.tw/products/9787111479611)
