@@ -33,6 +33,14 @@ TRAP ，主動通知管理端，警告一個異常事件
 對傳輸的資料加密
 確保傳輸資料正確
 ```
+## OpenNMS
+
+- [OpenNMS](https://en.wikipedia.org/wiki/OpenNMS)
+- [OpenNMS Documentation](https://docs.opennms.com/start-page/1.0.0/index.html)
+- [Quick Introduction to OpenNMS](https://www.youtube.com/watch?v=9ksCJiIAv-k)
+- [OpenNMS](https://www.youtube.com/channel/UCuNoze7QQ9aqoR6ZxLhPqFA)
+- [OpenNMS 101 video series](https://www.youtube.com/watch?v=GJzmkshdjiI&list=PLsXgBGH3nG7iZSlssmZB3xWsAJlst2j2z)
+
 ## 網路監控系統
 ```
 Prometheus 雲端監控系統
