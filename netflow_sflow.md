@@ -10,12 +10,7 @@ NetFlow是一種網路監測功能，可以收集進入及離開網路界面的I
 ```
 - [Flow Monitoring Explained: From Packet Capture to Data Analysis With NetFlow and IPFIX](https://ieeexplore.ieee.org/document/6814316)
 
-## [openSNMP](https://sourceforge.net/projects/opensnmp/) 
-```
-openSNMP is a multi-threaded SNMPv3 engine. This project supports the
-Simple Network Management Protocol version 3. In particular, it is
-designed to match the architecture of the Internet Engineering Task Force SNMPv3 standard (RFCs 3410-15).
-```
+
 ## [10 Best Free NetFlow Analyzers and Collectors for Windows & Linux](https://www.pcwdld.com/best-free-netflow-analyzers-and-collectors-for-windows)
 ```
 SolarWinds Real-Time NetFlow Analyzer 
