@@ -2,7 +2,7 @@
 
 - [NetFlow vs. sFlow](https://www.kentik.com/blog/netflow-vs-sflow/)
 
-## netflow
+## [netflow](https://en.wikipedia.org/wiki/NetFlow)
 ```
 NetFlow是一種網路監測功能，可以收集進入及離開網路界面的IP封包的數量及資訊
 最早由思科公司研發，應用在路由器及交換器等產品上。
