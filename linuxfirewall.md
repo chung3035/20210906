@@ -88,3 +88,16 @@ FORWARD – for packets routed through the box
 
 ```
 ## [UNIX\Linux 網絡日誌分析與流量監控 UNIX/Linux网络日志分析与流量监控 李晨光 機械工業 2015](https://www.tenlong.com.tw/products/9787111479611)
+
+## [資安風險評估指南 (Network Security Assessment, 3/e) Chris McNab 著、江湖海 譯 歐萊禮2017](https://www.tenlong.com.tw/products/9789864765478)
+```
+從本書可學到如何有效地測試下列系統組件：
+．常見的服務，如SSH、FTP、Kerberos、SNMP和LDAP。
+．微軟的系統服務，包括NetBIOS、SMB、RPC和RDP。
+．SMTP、POP3和IMAP等電子郵件服務。
+．提供網路安全存取的IPSec和PPTP服務。
+．提供安全傳輸的TLS協定及其功能。
+．微軟IIS、Apache和Nginx等網頁伺服器軟體。
+．Rails、Django、微軟ASP.NET和PHP等應用程式框架。
+．資料庫伺服器、儲存協定及鍵值對儲存等資料儲存技術
+```
