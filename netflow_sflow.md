@@ -7,7 +7,7 @@
 SolarWinds Real-Time NetFlow Analyzer 
 Site24x7 Network Monitoring 
 Paessler PRTG 
-Colasoft Capsa Free A packet analyzer with lots of graphical interpretations. Installs on Windows.
+Colasoft Capsa Free 
 Angry IP Scanner 
 ManageEngine NetFlow Analyzer 
 The Dude 
