@@ -1,5 +1,7 @@
 # netflow vs sflow
 
+- [NetFlow vs. sFlow](https://www.kentik.com/blog/netflow-vs-sflow/)
+
 ## netflow
 
 
