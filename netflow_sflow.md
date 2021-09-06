@@ -1,4 +1,6 @@
-#
+# netflow vs sflow
+
+## netflow
 
 
 
@@ -15,6 +17,10 @@ Plixer Scrutinizer
 Wireshark 
 nProbe 
 ```
+## sFlow
+
+- [sFlow@wiki](https://en.wikipedia.org/wiki/SFlow)
+- [RFC 3176(2001) InMon Corporation's sFlow: A Method for Monitoring Traffic in Switched and Routed Networks](https://www.ietf.org/rfc/rfc3176.txt)
 
 ## [8 Best Free sFlow Collectors and Analyzers to Monitor your Network](https://www.pcwdld.com/best-sflow-collectors-analyzers-free)
 ```
