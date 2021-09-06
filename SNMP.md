@@ -48,3 +48,5 @@ Page-213 ==> 設定Windows可以被Cacti Server監控
 
 - [Install and Configure Cacti on Ubuntu 20.04|18.04](https://computingforgeeks.com/install-and-configure-cacti-on-ubuntu/)
 - [How to install Cacti SNMP Monitor on Ubuntu](https://www.techrepublic.com/article/how-to-install-cacti-snmp-monitor-on-ubuntu/)
+
+- [設定Windows可以被Cacti Server監控](https://a84923977.blogspot.com/2016/07/windowscacti-server.html)
