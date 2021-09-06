@@ -34,6 +34,7 @@ nProbe
 - [sFlow@wiki](https://en.wikipedia.org/wiki/SFlow)
 - [RFC 3176(2001) InMon Corporation's sFlow: A Method for Monitoring Traffic in Switched and Routed Networks](https://www.ietf.org/rfc/rfc3176.txt)
 - [sflow.org](https://sflow.org/)
+- [Network wide visibility with Linux networking and sFlow](https://netdevconf.info/0x15/session.html?Network-wide-visibility-with-Linux-networking-and-sFlow)
 
 ## [8 Best Free sFlow Collectors and Analyzers to Monitor your Network](https://www.pcwdld.com/best-sflow-collectors-analyzers-free)
 ```
