@@ -33,7 +33,21 @@ TRAP ，主動通知管理端，警告一個異常事件
 對傳輸的資料加密
 確保傳輸資料正確
 ```
-## 網路監控
+## 網路監控系統
+```
+Prometheus 雲端監控系統
+Nagios
+Cacti
+Graphite
+Ganglia
+Zabbix
+OpenFalcon
+
+ELK/EFK
+```
+- [Zabbix 監控系統入門與實戰 胡楊男爵2020](https://www.tenlong.com.tw/products/9787302556299)
+- [下世代超前佈署：用 Zabbix 全面監管巨量伺服器 吳兆松 深智數位 2019/2020](https://www.tenlong.com.tw/products/9789865501471)
+- [異形般強大的監控系統：Prometheus 掌控主機、VM、容器及 K8S 陳曉宇、 楊川胡、陳嘯 深智數位 2020](https://www.tenlong.com.tw/products/9789865501167)
 
 
 ## 網路監控實作
