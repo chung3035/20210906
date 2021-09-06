@@ -31,9 +31,9 @@ Chapter 3 iptables：傳統的 Linux 防火牆管理程式
 Chapter 4 nftables:（新）Linux 防火牆管理程式
 
 Part II 進階議題、多個防火牆和邊界網路
-Chapter 7 封包轉發
+Chapter 7 封包轉發Packet Forwarding
 Chapter 8 網路位址轉換NAT(Network address translation) https://en.wikipedia.org/wiki/Network_address_translation
-Chapter 10 虛擬專用網路
+Chapter 10 虛擬專用網路 VPN(Virtual Private Networks)
 
 Part III iptables 和nftables 之外的事
 Chapter 11 入侵檢測和響應
