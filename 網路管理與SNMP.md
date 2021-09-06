@@ -41,6 +41,12 @@ TRAP ，主動通知管理端，警告一個異常事件
 - [OpenNMS](https://www.youtube.com/channel/UCuNoze7QQ9aqoR6ZxLhPqFA)
 - [OpenNMS 101 video series](https://www.youtube.com/watch?v=GJzmkshdjiI&list=PLsXgBGH3nG7iZSlssmZB3xWsAJlst2j2z)
 
+## [openSNMP](https://sourceforge.net/projects/opensnmp/) 
+```
+openSNMP is a multi-threaded SNMPv3 engine. This project supports the
+Simple Network Management Protocol version 3. In particular, it is
+designed to match the architecture of the Internet Engineering Task Force SNMPv3 standard (RFCs 3410-15).
+```
 ## 網路監控系統
 ```
 Prometheus 雲端監控系統
