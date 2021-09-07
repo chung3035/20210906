@@ -1,5 +1,8 @@
 # 20210906
 
+https://www.ssllabs.com/ssltest/
+
+
 ```
 0.課程內容簡介
 1.通訊協定與拓樸簡介
