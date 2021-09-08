@@ -20,22 +20,15 @@ SNMP主要分為
 2.代理者（Agent）
 3.管理資訊庫（Management Information Base，MIB）
 ```
+
+## SNMP v1
 ```
-SNMP所定義的五種Manager與Agent溝通指令
+第一版中指定五種核心PDU：
 GET REQUEST ，用來得到一條管理資訊
 GET NEXT REQUEST ，用來反覆得到管理資訊的序列
 GET RESPONSE，讀取回應
 SET REQUEST，設定值，主動管理系統
 TRAP ，主動通知管理端，警告一個異常事件
-```
-## SNMP v1
-```
-第一版中指定五種核心PDU：
-GET REQUEST
-GET NEXT REQUEST
-GET RESPONSE
-SET REQUEST
-TRAP
 ```
 ## SNMP v2
 ```
@@ -68,7 +61,17 @@ SNMP第三版提供重要的安全性功能：
 認證：檢驗資訊來自正確的來源。
 封包加密：避免被未授權的來源窺探。
 
+第三版中指定八種核心PDU：
+GET REQUEST
+GET NEXT REQUEST
+GET RESPONSE
+SET REQUEST
+TRAP
 
+GETBULK REQUEST [SNMP第二版新加]
+INFORM [SNMP第二版新加]
+
+Report [SNMP第三版新加]
 ```
 ## OpenNMS
 
