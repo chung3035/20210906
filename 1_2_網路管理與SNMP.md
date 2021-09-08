@@ -1,15 +1,24 @@
-# SNMP
-
-
-
+# [SNMP](https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol)  [[中文版]](https://zh.wikipedia.org/wiki/%E7%AE%80%E5%8D%95%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%86%E5%8D%8F%E8%AE%AE)
 
 ```
+簡單網路管理協定（SNMP，Simple Network Management Protocol）構成了網際網路工程工作小組（IETF，Internet Engineering Task Force）定義的Internet協定族的一部分。
+SNMP協定能夠支援網路管理系統，用以監測連接到網路上的裝置是否有任何引起管理上關注的情況。
+SNMP由一組網路管理的標準組成，包含一個應用層協定（application layer protocol）、資料庫模式（database schema），和一組資料物件。
+```
+## SNMP基本元件
+```
+一個SNMP管理的網路由下列三個關鍵元件組成：
+
+網路管理系統（NMSs，Network-management systems）
+被管理的裝置（managed device）
+代理者（agent）
+```
+```
 SNMP主要分為
-管理端（Manager）
-利用SNMP通訊協定向代理者（Agent）查詢所需的相關資訊
-如網路設備運作狀態、CPU使用率、硬碟利用率等。 
-代理者（Agent）
-管理資訊庫（Management Information Base，MIB）
+1.管理端（Manager） ==> 利用SNMP通訊協定向代理者（Agent）查詢所需的相關資訊
+                       如網路設備運作狀態、CPU使用率、硬碟利用率等。 
+2.代理者（Agent）
+3.管理資訊庫（Management Information Base，MIB）
 ```
 ```
 SNMP所定義的五種Manager與Agent溝通指令
@@ -20,18 +29,46 @@ SET REQUEST，設定值，主動管理系統
 TRAP ，主動通知管理端，警告一個異常事件
 ```
 ## SNMP v1
+```
+第一版中指定五種核心PDU：
+GET REQUEST
+GET NEXT REQUEST
+GET RESPONSE
+SET REQUEST
+TRAP
+```
 ## SNMP v2
 ```
-針對SNMP v1 改進許多安全缺陷，提供基礎的認證程序
+SNMP第二版SMI在RFC 2578之中描述
+它在SNMP第一版的SMI規格資料型態上進行增加和強化，例如位元串（bit strings）、網路位址（network addresses）和計數器（counters）
+
+第二版中指定七種核心PDU：
+GET REQUEST
+GET NEXT REQUEST
+GET RESPONSE
+SET REQUEST
+TRAP
+
+GETBULK REQUEST [SNMP第二版新加]
+INFORM [SNMP第二版新加]
+
+
+SNMP第二版SMI資訊模組
+SNMP第二版SMI也指定了資訊模組來詳細說明一群相關連的定義。
+有三種SMI資訊模組：MIB模組、回應狀態、能力狀態。
 ```
 ## SNMP v3
 ```
-在SNMP v2 的基礎上增強安全功能
-應用加密標準(Data Encryption Standard, DES)與MD5等編碼技術對資料進行編碼
-透過對資料進行鑑別與加密，提供以下安全特性：
-確保資料是合法的
-對傳輸的資料加密
-確保傳輸資料正確
+SNMP第三版由RFC 3411-RFC 3418定義
+
+主要增加SNMP在安全性和遠端組態方面的強化。
+
+SNMP第三版提供重要的安全性功能：
+資訊完整性：保證封包在傳送中沒有被竄改。
+認證：檢驗資訊來自正確的來源。
+封包加密：避免被未授權的來源窺探。
+
+
 ```
 ## OpenNMS
 
